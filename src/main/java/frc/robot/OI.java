@@ -16,10 +16,10 @@ public class OI {
 	// stickfigure.GetRawAxis(10)
 	
 	public double getX (){
-		return stickfigure.GetRawAxis(10);
+		return stickfigure.GetRawAxis(0);
 	}
 	public double getY (){
-		return stickfigure.GetRawAxis(10);
+		return stickfigure.GetRawAxis(1)*-1;
 	}
 	
 
