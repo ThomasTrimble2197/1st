@@ -89,7 +89,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void teleopInit() {
-	Vertical commmand = new Vertical();
+	Vertical command = new Vertical();
 	command.start();
   }
 

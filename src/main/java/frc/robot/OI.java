@@ -6,20 +6,19 @@
 /*----------------------------------------------------------------------------*/
 
 package frc.robot;
-/**
- * This class is the glue that binds the controls on the physical operator
- * interface to the commands and command groups that allow control of the robot.
- */
+
+import edu.wpi.lib.wpilibj.Joystick;
+
 public class OI {
 	Joystick stickfigure = new Joystick(0);
 
 	// stickfigure.GetRawAxis(10)
 	
 	public double getX (){
-		return stickfigure.GetRawAxis(0);
+		return stickfigure.getRawAxis(0);
 	}
 	public double getY (){
-		return stickfigure.GetRawAxis(1)*-1;
+		return stickfigure.getRawAxis(1) * -1;
 	}
 	
 
